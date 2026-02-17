@@ -4,6 +4,10 @@
 
 The app uses a PyQt UI to simulate multiple tanks, local control actions, and disturbances in real time.
 
+## Dashboard Preview
+
+![Algebra-to-DCS dashboard preview](docs/images/dashboard-sample.png)
+
 ## Why This Project Exists
 
 Many control problems start from the same mass-balance idea:
