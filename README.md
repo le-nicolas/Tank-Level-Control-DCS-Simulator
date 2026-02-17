@@ -7,6 +7,7 @@ The app uses a PyQt UI to simulate multiple tanks, local control actions, and di
 ## Dashboard Preview
 
 ![Algebra-to-DCS dashboard preview](docs/images/dashboard-sample.png)
+Tank-1 in the preview is intentionally in overflow alarm to demonstrate the spill animation.
 
 ## Why This Project Exists
 
@@ -31,6 +32,7 @@ A practical DCS applies this logic repeatedly for many units at once, each with 
 - Automatic correction when level leaves the acceptable range
 - Random process fluctuations
 - Operator-triggered disturbances (positive or negative)
+- Overflow spill animation when level exceeds the control range
 - Central dashboard with status and alarm-style color cues
 
 ## Current Architecture
@@ -70,6 +72,7 @@ python DCS.py
 - `Reset Tanks`: restore all tanks to default values
 - Tank slider: set that tank's target level
 - `Inject Disturbance`: apply a sudden random change to the selected tank
+- `Trigger Spill Sample`: force a positive disturbance to demonstrate overflow behavior
 
 ## Interpreting Tank Status
 
