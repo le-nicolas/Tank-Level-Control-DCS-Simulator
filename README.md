@@ -9,6 +9,11 @@ The app uses a PyQt UI to simulate multiple tanks, local control actions, and di
 ![Algebra-to-DCS dashboard preview](docs/images/dashboard-sample.png)
 Tank-1 in the preview is intentionally in overflow alarm to demonstrate the spill animation.
 
+### Spill Animation Preview
+
+![Overflow spill animation preview](docs/images/spill-animation.gif)
+Animated sample of the water spill effect when overflow is triggered.
+
 ## Why This Project Exists
 
 Many control problems start from the same mass-balance idea:
